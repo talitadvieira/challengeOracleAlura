@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="short icon" href="imagens/logoAlura.png" type="image/x-icon">
+    <title>Decodificador</title>
+</head>
+<body>
+    
+    <main class="main-container">
+        <header class="cabecalho">
+            <img src="imagens/logoAlura.png" alt="logo da Alura"/>
+        </header>
+
+        <div class="container-input">
+            <div class="input">
+                <textarea id="input-texto" placeholder="Digite seu texto"></textarea>
+                <p class="info"><ion-icon name="information-circle"></ion-icon>Apenas letras minúsculas e sem acento.</p>
+            </div>
+        
+        
+        <div id="output">
+            <img src="imagens/boneco.svg" alt="logo boneco com lupa" height="330px" width="400px">
+            <span><h2>Nenhuma mensagem encontrada.</h2></span>
+        </div>
+        </div>
+
+        <div class="buttons">
+            <div class="container-btn">
+                <button onclick="criptografar()" class="btn-criptografar"> Criptografar </button>
+                <button onclick="descriptografar()" class="btn-descriptografar"> Descriptografar </button>
+            </div>
+        </div>
+        
+    </main>
+    
+    <footer class="rodape">
+        <div class="icons">
+            <a href="https://github.com/talitadvieira"><ion-icon name="logo-github"></ion-icon> talitadvieira</a>
+            <h3>Desenvolvido por Talita Dutra Vieira</h3>
+        </div>
+    </footer>
+
+    <script src="interacao/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
